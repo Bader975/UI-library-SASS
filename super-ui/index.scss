@@ -1,0 +1,55 @@
+// Google fonts
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;700;800&family=Mulish:wght@200&family=Playfair+Display&family=Roboto:wght@300;400&display=swap");
+
+hmtl {
+  font-family: "Inter", sans-serif;
+  font-family: "Mulish", sans-serif;
+  font-family: "Playfair Display", serif;
+  font-family: "Roboto", sans-serif;
+}
+
+// variables import
+@import "variables";
+
+* {
+  color: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  color: $primary;
+}
+
+a {
+  text-decoration: none;
+  color: $secondary;
+}
+
+button {
+  color: white;
+  border: 0;
+  background: $primary;
+  padding: $base-padding;
+  border-radius: $base-border-radius;
+}
+
+.error {
+  padding: $base-padding;
+  margin: $base-margin;
+  border-width: $base-border-width;
+  border-radius: $base-border-radius;
+  color: $error;
+  border-color: $error;
+  border-style: solid;
+}
+
+.notification {
+  padding: $base-padding;
+  margin: $base-margin;
+  border-width: $base-border-width;
+  border-radius: $base-border-radius;
+  color: $secondary;
+  border-color: $secondary;
+  border-style: solid;
+}

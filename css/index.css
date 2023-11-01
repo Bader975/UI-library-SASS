@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;700;800&family=Mulish:wght@200&family=Playfair+Display&family=Roboto:wght@300;400&display=swap");
+hmtl {
+  font-family: "Inter", sans-serif;
+  font-family: "Mulish", sans-serif;
+  font-family: "Playfair Display", serif;
+  font-family: "Roboto", sans-serif;
+}
+
+* {
+  color: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  color: #326dee;
+}
+
+a {
+  text-decoration: none;
+  color: #1ac888;
+}
+
+button {
+  color: white;
+  border: 0;
+  background: #326dee;
+  padding: 0.75rem;
+  border-radius: 20px;
+}
+
+.error {
+  padding: 0.75rem;
+  margin: 0.75rem;
+  border-width: 1px;
+  border-radius: 20px;
+  color: #d32752;
+  border-color: #d32752;
+  border-style: solid;
+}
+
+.notification {
+  padding: 0.75rem;
+  margin: 0.75rem;
+  border-width: 1px;
+  border-radius: 20px;
+  color: #1ac888;
+  border-color: #1ac888;
+  border-style: solid;
+}
+
+/*# sourceMappingURL=index.css.map */
